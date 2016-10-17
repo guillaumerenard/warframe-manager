@@ -99,7 +99,7 @@
     },
     {
         "name":"Akstiletto Prime",
-        "requiredParts":[{"name":"Schéma Akstiletto Prime"},{"name":"Canon Akstiletto Prime"},{"name":"Canon Akstiletto Prime"},{"name":"Culasse Akstiletto Prime"},{"name":"Culasse Akstiletto Prime"}]
+        "requiredParts":[{"name":"Schéma Akstiletto Prime"},{"name":"Canon Akstiletto Prime"},{"name":"Canon Akstiletto Prime"},{"name":"Culasse Akstiletto Prime"},{"name":"Culasse Akstiletto Prime"},{"name":"Lien Akstiletto Prime"}]
     },
     {
         "name":"Bronco Prime",
@@ -149,6 +149,10 @@
     {
         "name":"Fang Prime",
         "requiredParts":[{"name":"Schéma Fang Prime"},{"name":"Lame Fang Prime"},{"name":"Lame Fang Prime"},{"name":"Poignée Fang Prime"},{"name":"Poignée Fang Prime"}]
+    },
+    {
+        "name":"Fragor Prime",
+        "requiredParts":[{"name":"Schéma Fragor Prime"},{"name":"Tête Fragor Prime"},{"name":"Poignée Fragor Prime"}]
     },
     {
         "name":"Reaper Prime",

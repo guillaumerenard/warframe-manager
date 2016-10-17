@@ -24,7 +24,7 @@
         "tier":"Lith",
         "type":"F2",
         "commonRewards":[{"name":"Systèmes Odonata Prime"},{"name":"Étoile Hikou Prime"},{"name":"Partie Supérieur Paris Prime"}],
-        "uncommonRewards":[{"name":"Canon burston Prime"},{"name":"Poignée Fang Prime"}],
+        "uncommonRewards":[{"name":"Canon Burston Prime"},{"name":"Poignée Fang Prime"}],
         "rareRewards":[{"name":"Schéma Vauban Prime"}]
     },
     {
@@ -38,13 +38,13 @@
         "tier":"Lith",
         "type":"M1",
         "commonRewards":[{"name":"Forma"},{"name":"Culasse Boar Prime"},{"name":"Culasse Lex Prime"}],
-        "uncommonRewards":[{"name":"Schéma dakra Prime"},{"name":"Schéma Soma Prime"}],
+        "uncommonRewards":[{"name":"Schéma Dakra Prime"},{"name":"Schéma Soma Prime"}],
         "rareRewards":[{"name":"Schéma Mag Prime"}]
     },
     {
         "tier":"Lith",
         "type":"N1",
-        "commonRewards":[{"name":"Châssis NekrosPrime"},{"name":"Schéma Bronko Prime"},{"name":"Schéma Lame Fang"}],
+        "commonRewards":[{"name":"Châssis Nekros Prime"},{"name":"Schéma Bronko Prime"},{"name":"Schéma Lame Fang"}],
         "uncommonRewards":[{"name":"Forma"},{"name":"Lien akbronko"}],
         "rareRewards":[{"name":"Châssis Nova Prime"}]
     },
@@ -222,14 +222,14 @@
     {
         "tier":"Axi",
         "type":"N1",
-        "commonRewards":[{"name":"Forma"},{"name":"Lame Fang Prime"},{"name":"Schéma Braton  Prime"}],
+        "commonRewards":[{"name":"Forma"},{"name":"Lame Fang Prime"},{"name":"Schéma Braton Prime"}],
         "uncommonRewards":[{"name":"Ailes Odonata Prime"},{"name":"Lien Akstiletto Prime"}],
         "rareRewards":[{"name":"Systèmes Ash Prime"}]
     },
     {
         "tier":"Axi",
         "type":"N2",
-        "commonRewards":[{"name":"Carapace Carrier Prime"},{"name":"Culasse Lex Prime"},{"name":"Schéma Bronco  Prime"}],
+        "commonRewards":[{"name":"Carapace Carrier Prime"},{"name":"Culasse Lex Prime"},{"name":"Schéma Bronco Prime"}],
         "uncommonRewards":[{"name":"Forma"},{"name":"Neuroptique Ash Prime"}],
         "rareRewards":[{"name":"Garde Nikana  Prime"}]
     },
@@ -265,7 +265,14 @@
         "tier":"Axi",
         "type":"V3",
         "commonRewards":[{"name":"Systèmes Trinity Prime"},{"name":"Neuroptique Trinity Prime"},{"name":"Canon Vasto Prime"}],
-        "uncommonRewards":[{"name":"schéma Orthos Prime"},{"name":"Culasse Braton Prime"}],
-        "rareRewards":[{"name":"Crosse Vectis  Prime"}]
+        "uncommonRewards":[{"name":"Schéma Orthos Prime"},{"name":"Culasse Braton Prime"}],
+        "rareRewards":[{"name":"Crosse Vectis Prime"}]
+    },
+    {
+        "tier":"Axi",
+        "type":"T1",
+        "commonRewards":[{"name":"Systèmes Saryn Prime"},{"name":"Canon Vectis Prime"},{"name":"Harnais Odonata Prime"}],
+        "uncommonRewards":[{"name":"Canon Burston Prime"},{"name":"Culasse Akstiletto Prime"}],
+        "rareRewards":[{"name":"Schéma Tigris Prime"}]
     }
 ]
