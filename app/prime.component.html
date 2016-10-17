@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">Tableau de bord prime</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" [(ngModel)]="hideOwnedPrimes" /> Masquer les primes obtenues
+                </label>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" [(ngModel)]="hideBuildablePrimes" /> Masquer les primes constructibles
+                </label>
+            </div>
+            <div class="form-group">
+                <label>Tier</label>
+                <select [(ngModel)]="selectedTier" class="form-control">
+                    <option></option>
+                    <option>Lith</option>
+                    <option>Meso</option>
+                    <option>Neo</option>
+                    <option>Axi</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Recherche</label>
+                <input type="text" class="form-control" [(ngModel)]="searchKey" />
+            </div>
+            <button class="pull-right" (click)="save()">Sauvegarder</button>
+        </div>
+        
+        <div class="col-md-9">
+            <ul class="list-group">
+                <li *ngFor="let prime of getFilteredPrimes()" class="list-group-item" [ngClass]="{'active':isOwnedPrime(prime), 'list-group-item-success': prime.canBuildPrime(ownedPrimeParts) }">
+                    <label>
+                        {{prime.name}}
+                        <input type="checkbox" [checked]="isOwnedPrime(prime)" (change)="$event.target.checked ? addOwnedPrime(prime) : removeOwnedPrime(prime)" />
+                    </label>
+                    <ul class="list-group">
+                        <li *ngFor="let primePart of getFilteredPrimeParts(prime)" class="list-group-item" [ngClass]="{'list-group-item-success':countOwnedPrimePart(primePart) >= prime.countPrimePart(primePart), 'list-group-item-warning': countOwnedPrimePart(primePart) < prime.countPrimePart(primePart) }">
+                            {{primePart.name}}
+                            {{countOwnedPrimePart(primePart)}}/{{prime.countPrimePart(primePart)}}
+                            <button (click)="addOwnedPrimePart(primePart)">+</button>
+                            <button (click)="removeOwnedPrimePart(primePart)">-</button>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
