@@ -24,6 +24,8 @@ export class PrimeComponent implements OnInit {
     hideOwnedPrimes: boolean;
     hideBuildablePrimes: boolean;
     searchKey: string;
+    ownedPrimesJson: string;
+    ownedPrimePartsJson: string;
 
     constructor(private warframeService: WarframeService) {}
 
@@ -92,7 +94,9 @@ export class PrimeComponent implements OnInit {
     save() {
         console.log('Owned primes');
         console.log(JSON.stringify(this.ownedPrimes));
+        this.ownedPrimesJson = JSON.stringify(this.ownedPrimes);
         console.log('Owned prime parts');
         console.log(JSON.stringify(this.ownedPrimeParts));
+        this.ownedPrimePartsJson = JSON.stringify(this.ownedPrimeParts);
     }
 }

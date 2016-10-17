@@ -53,4 +53,14 @@
             </ul>
         </div>
     </div>
+    <div class="row" [ngClass]="{'hide': ownedPrimesJson == null && ownedPrimePartsJson == null}">
+        <div class="col-md-12">
+            <label>Mes primes</label>
+            <textarea [(ngModel)]="ownedPrimesJson" class="form-control">
+            </textarea>
+            <label>Mes parties primes</label>
+            <textarea [(ngModel)]="ownedPrimePartsJson" class="form-control">
+            </textarea>
+        </div>
+    </div>
 </div>
