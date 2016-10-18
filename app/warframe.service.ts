@@ -30,9 +30,9 @@ export class WarframeService {
         .toPromise().then(response => response.json() as Prime[]);
   }
 
-  searchPrime(primes: Prime[], searchKey: string) {
+  searchPrime(primes: Prime[], searchKey: string): Prime[] {
     if(searchKey == null || searchKey == '') {
-      return primes;
+      return primes;  
     }
     return primes.filter(prime => prime.name.toLowerCase().indexOf(searchKey.toLowerCase()) >= 0);
   }
@@ -56,10 +56,6 @@ export class WarframeService {
             voidRelic.rareRewards.some(voidRelicPrimePart => PrimePart.isEqual(voidRelicPrimePart, primePart)))
       );
     }
-  }
-
-  distinctPrimeParts(primeParts: PrimePart[]): PrimePart[] {
-    return primeParts.filter((element, index) => primeParts.findIndex(primePart => PrimePart.isEqual(primePart, element)) == index);
   }
 
   // Void relic

@@ -23,6 +23,7 @@ export class PrimeComponent implements OnInit {
     selectedTier: string;
     hideOwnedPrimes: boolean;
     hideBuildablePrimes: boolean;
+    hideVaultedPrimes: boolean;
     searchKey: string;
     ownedPrimesJson: string;
     ownedPrimePartsJson: string;
@@ -37,6 +38,7 @@ export class PrimeComponent implements OnInit {
         this.selectedTier = '';
         this.hideOwnedPrimes = true;
         this.hideBuildablePrimes = true;
+        this.hideVaultedPrimes = true;
         this.searchKey = '';
         this.warframeService.getPrimes().then(primes => {
             primes.sort((a, b) => a.name == b.name ? 0 : a.name > b.name ? 1 : -1);
@@ -52,7 +54,7 @@ export class PrimeComponent implements OnInit {
     }
 
     getFilteredPrimeParts(prime: Prime): PrimePart[] {
-        return this.warframeService.distinctPrimeParts(this.warframeService.filterPrimePartsByTier(prime.requiredParts, this.selectedTier, this.voidRelics));
+        return this.warframeService.filterPrimePartsByTier(prime.getDistinctParts(), this.selectedTier, this.voidRelics);
     }
 
     countOwnedPrimePart(primePart: PrimePart): number {
@@ -88,7 +90,8 @@ export class PrimeComponent implements OnInit {
     isPrimeHidden(prime: Prime) : boolean {
         return this.warframeService.filterPrimePartsByTier(prime.requiredParts, this.selectedTier, this.voidRelics).length < 1 ||
             (this.hideOwnedPrimes && this.isOwnedPrime(prime)) ||
-            (this.hideBuildablePrimes && prime.canBuildPrime(this.ownedPrimeParts));
+            (this.hideBuildablePrimes && prime.canBuildPrime(this.ownedPrimeParts)) ||
+            (this.hideVaultedPrimes && prime.vaulted);
     }
 
     save() {

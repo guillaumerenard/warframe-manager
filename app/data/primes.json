@@ -1,178 +1,221 @@
 [
     {
         "name":"Ash Prime",
-        "requiredParts":[{"name":"Schéma Ash Prime"},{"name":"Neuroptiques Ash Prime"},{"name":"Châssis Ash Prime"},{"name":"Systèmes Ash Prime"}]
+        "requiredParts":[{"name":"Schéma Ash Prime"},{"name":"Neuroptiques Ash Prime"},{"name":"Châssis Ash Prime"},{"name":"Systèmes Ash Prime"}],
+        "vaulted":false
     },
     {
         "name":"Ember Prime",
-        "requiredParts":[{"name":"Schéma Ember Prime"},{"name":"Neuroptiques Ember Prime"},{"name":"Châssis Ember Prime"},{"name":"Systèmes Ember Prime"}]
+        "requiredParts":[{"name":"Schéma Ember Prime"},{"name":"Neuroptiques Ember Prime"},{"name":"Châssis Ember Prime"},{"name":"Systèmes Ember Prime"}],
+        "vaulted":true
     },
     {
         "name":"Excalibur Prime",
-        "requiredParts":[]
+        "requiredParts":[],
+        "vaulted":false
     },
     {
         "name":"Frost Prime",
-        "requiredParts":[{"name":"Schéma Frost Prime"},{"name":"Neuroptiques Frost Prime"},{"name":"Châssis Frost Prime"},{"name":"Systèmes Frost Prime"}]
+        "requiredParts":[{"name":"Schéma Frost Prime"},{"name":"Neuroptiques Frost Prime"},{"name":"Châssis Frost Prime"},{"name":"Systèmes Frost Prime"}],
+        "vaulted":true
     },
     {
         "name":"Loki Prime",
-        "requiredParts":[{"name":"Schéma Loki Prime"},{"name":"Neuroptiques Loki Prime"},{"name":"Châssis Loki Prime"},{"name":"Systèmes Loki Prime"}]
+        "requiredParts":[{"name":"Schéma Loki Prime"},{"name":"Neuroptiques Loki Prime"},{"name":"Châssis Loki Prime"},{"name":"Systèmes Loki Prime"}],
+        "vaulted":true
     },
     {
         "name":"Mag Prime",
-        "requiredParts":[{"name":"Schéma Mag Prime"},{"name":"Neuroptiques Mag Prime"},{"name":"Châssis Mag Prime"},{"name":"Systèmes Mag Prime"}]
+        "requiredParts":[{"name":"Schéma Mag Prime"},{"name":"Neuroptiques Mag Prime"},{"name":"Châssis Mag Prime"},{"name":"Systèmes Mag Prime"}],
+        "vaulted":true
     },
     {
         "name":"Nekros Prime",
-        "requiredParts":[{"name":"Schéma Nekros Prime"},{"name":"Neuroptiques Nekros Prime"},{"name":"Châssis Nekros Prime"},{"name":"Systèmes Nekros Prime"}]
+        "requiredParts":[{"name":"Schéma Nekros Prime"},{"name":"Neuroptiques Nekros Prime"},{"name":"Châssis Nekros Prime"},{"name":"Systèmes Nekros Prime"}],
+        "vaulted":false
     },
     {
         "name":"Nova Prime",
-        "requiredParts":[{"name":"Schéma Nova Prime"},{"name":"Neuroptiques Nova Prime"},{"name":"Châssis Nova Prime"},{"name":"Systèmes Nova Prime"}]
+        "requiredParts":[{"name":"Schéma Nova Prime"},{"name":"Neuroptiques Nova Prime"},{"name":"Châssis Nova Prime"},{"name":"Systèmes Nova Prime"}],
+        "vaulted":false
     },
     {
         "name":"Nyx Prime",
-        "requiredParts":[{"name":"Schéma Nyx Prime"},{"name":"Neuroptiques Nyx Prime"},{"name":"Châssis Nyx Prime"},{"name":"Systèmes Nyx Prime"}]
+        "requiredParts":[{"name":"Schéma Nyx Prime"},{"name":"Neuroptiques Nyx Prime"},{"name":"Châssis Nyx Prime"},{"name":"Systèmes Nyx Prime"}],
+        "vaulted":true
     },
     {
         "name":"Rhino Prime",
-        "requiredParts":[{"name":"Schéma Rhino Prime"},{"name":"Neuroptiques Rhino Prime"},{"name":"Châssis Rhino Prime"},{"name":"Systèmes Rhino Prime"}]
+        "requiredParts":[{"name":"Schéma Rhino Prime"},{"name":"Neuroptiques Rhino Prime"},{"name":"Châssis Rhino Prime"},{"name":"Systèmes Rhino Prime"}],
+        "vaulted":true
     },
     {
         "name":"Saryn Prime",
-        "requiredParts":[{"name":"Schéma Saryn Prime"},{"name":"Neuroptiques Saryn Prime"},{"name":"Châssis Saryn Prime"},{"name":"Systèmes Saryn Prime"}]
+        "requiredParts":[{"name":"Schéma Saryn Prime"},{"name":"Neuroptiques Saryn Prime"},{"name":"Châssis Saryn Prime"},{"name":"Systèmes Saryn Prime"}],
+        "vaulted":false
     },
     {
         "name":"Trinity Prime",
-        "requiredParts":[{"name":"Schéma Trinity Prime"},{"name":"Neuroptiques Trinity Prime"},{"name":"Châssis Trinity Prime"},{"name":"Systèmes Trinity Prime"}]
+        "requiredParts":[{"name":"Schéma Trinity Prime"},{"name":"Neuroptiques Trinity Prime"},{"name":"Châssis Trinity Prime"},{"name":"Systèmes Trinity Prime"}],
+        "vaulted":false
     },
     {
         "name":"Vauban Prime",
-        "requiredParts":[{"name":"Schéma Vauban Prime"},{"name":"Neuroptiques Vauban Prime"},{"name":"Châssis Vauban Prime"},{"name":"Systèmes Vauban Prime"}]
+        "requiredParts":[{"name":"Schéma Vauban Prime"},{"name":"Neuroptiques Vauban Prime"},{"name":"Châssis Vauban Prime"},{"name":"Systèmes Vauban Prime"}],
+        "vaulted":false
     },
     {
         "name":"Volt Prime",
-        "requiredParts":[{"name":"Schéma Volt Prime"},{"name":"Neuroptiques Volt Prime"},{"name":"Châssis Volt Prime"},{"name":"Systèmes Volt Prime"}]
+        "requiredParts":[{"name":"Schéma Volt Prime"},{"name":"Neuroptiques Volt Prime"},{"name":"Châssis Volt Prime"},{"name":"Systèmes Volt Prime"}],
+        "vaulted":false
     },
 
     {
         "name":"Boar Prime",
-        "requiredParts":[{"name":"Schéma Boar Prime"},{"name":"Canon Boar Prime"},{"name":"Culasse Boar Prime"},{"name":"Crosse Boar Prime"}]
+        "requiredParts":[{"name":"Schéma Boar Prime"},{"name":"Canon Boar Prime"},{"name":"Culasse Boar Prime"},{"name":"Crosse Boar Prime"}],
+        "vaulted":true
     },
     {
         "name":"Boltor Prime",
-        "requiredParts":[{"name":"Schéma Boltor Prime"},{"name":"Canon Boltor Prime"},{"name":"Culasse Boltor Prime"},{"name":"Crosse Boltor Prime"}]
+        "requiredParts":[{"name":"Schéma Boltor Prime"},{"name":"Canon Boltor Prime"},{"name":"Culasse Boltor Prime"},{"name":"Crosse Boltor Prime"}],
+        "vaulted":true
     },
     {
         "name":"Braton Prime",
-        "requiredParts":[{"name":"Schéma Braton Prime"},{"name":"Canon Braton Prime"},{"name":"Culasse Braton Prime"},{"name":"Crosse Braton Prime"}]
+        "requiredParts":[{"name":"Schéma Braton Prime"},{"name":"Canon Braton Prime"},{"name":"Culasse Braton Prime"},{"name":"Crosse Braton Prime"}],
+        "vaulted":false
     },
     {
         "name":"Burston Prime",
-        "requiredParts":[{"name":"Schéma Burston Prime"},{"name":"Canon Burston Prime"},{"name":"Culasse Burston Prime"},{"name":"Crosse Burston Prime"}]
+        "requiredParts":[{"name":"Schéma Burston Prime"},{"name":"Canon Burston Prime"},{"name":"Culasse Burston Prime"},{"name":"Crosse Burston Prime"}],
+        "vaulted":false
     },
     {
         "name":"Latron Prime",
-        "requiredParts":[{"name":"Schéma Latron Prime"},{"name":"Canon Latron Prime"},{"name":"Culasse Latron Prime"},{"name":"Crosse Latron Prime"}]
+        "requiredParts":[{"name":"Schéma Latron Prime"},{"name":"Canon Latron Prime"},{"name":"Culasse Latron Prime"},{"name":"Crosse Latron Prime"}],
+        "vaulted":true
     },
     {
         "name":"Paris Prime",
-        "requiredParts":[{"name":"Schéma Paris Prime"},{"name":"Poignée Paris Prime"},{"name":"Corde Paris Prime"},{"name":"Partie Supérieur Paris Prime"},{"name":"Partie Inférieure Paris Prime"}]
+        "requiredParts":[{"name":"Schéma Paris Prime"},{"name":"Poignée Paris Prime"},{"name":"Corde Paris Prime"},{"name":"Partie Supérieur Paris Prime"},{"name":"Partie Inférieure Paris Prime"}],
+        "vaulted":false
     },
     {
         "name":"Soma Prime",
-        "requiredParts":[{"name":"Schéma Soma Prime"},{"name":"Canon Soma Prime"},{"name":"Culasse Some Prime"},{"name":"Crosse Soma Prime"}]
+        "requiredParts":[{"name":"Schéma Soma Prime"},{"name":"Canon Soma Prime"},{"name":"Culasse Some Prime"},{"name":"Crosse Soma Prime"}],
+        "vaulted":false
     },
     {
         "name":"Tigris Prime",
-        "requiredParts":[{"name":"Schéma Tigris Prime"},{"name":"Canon Tigris Prime"},{"name":"Culasse Tigris Prime"},{"name":"Crosse Tigris Prime"}]
+        "requiredParts":[{"name":"Schéma Tigris Prime"},{"name":"Canon Tigris Prime"},{"name":"Culasse Tigris Prime"},{"name":"Crosse Tigris Prime"}],
+        "vaulted":false
     },
     {
         "name":"Vectis Prime",
-        "requiredParts":[{"name":"Schéma Vectis Prime"},{"name":"Canon Vectis Prime"},{"name":"Culasse Vectis Prime"},{"name":"Crosse Vectis Prime"}]
+        "requiredParts":[{"name":"Schéma Vectis Prime"},{"name":"Canon Vectis Prime"},{"name":"Culasse Vectis Prime"},{"name":"Crosse Vectis Prime"}],
+        "vaulted":false
     },
 
     {
         "name":"Akbronco Prime",
-        "requiredParts":[{"name":"Schéma Akbronco Prime"},{"name":"Lien Akbronco Prime"}]
+        "requiredParts":[{"name":"Schéma Akbronco Prime"},{"name":"Lien Akbronco Prime"}],
+        "vaulted":false
     },
     {
         "name":"Akstiletto Prime",
-        "requiredParts":[{"name":"Schéma Akstiletto Prime"},{"name":"Canon Akstiletto Prime"},{"name":"Canon Akstiletto Prime"},{"name":"Culasse Akstiletto Prime"},{"name":"Culasse Akstiletto Prime"},{"name":"Lien Akstiletto Prime"}]
+        "requiredParts":[{"name":"Schéma Akstiletto Prime"},{"name":"Canon Akstiletto Prime"},{"name":"Canon Akstiletto Prime"},{"name":"Culasse Akstiletto Prime"},{"name":"Culasse Akstiletto Prime"},{"name":"Lien Akstiletto Prime"}],
+        "vaulted":false
     },
     {
         "name":"Bronco Prime",
-        "requiredParts":[{"name":"Schéma Bronco Prime"},{"name":"Canon Bronco Prime"},{"name":"Culasse Bronco Prime"}]
+        "requiredParts":[{"name":"Schéma Bronco Prime"},{"name":"Canon Bronco Prime"},{"name":"Culasse Bronco Prime"}],
+        "vaulted":false
     },
     {
         "name":"Hikou Prime",
-        "requiredParts":[{"name":"Schéma Hikou Prime"},{"name":"Pochette Hikou Prime"},{"name":"Pochette Hikou Prime"},{"name":"Étoiles Hikou Prime"},{"name":"Étoiles Hikou Prime"}]
+        "requiredParts":[{"name":"Schéma Hikou Prime"},{"name":"Pochette Hikou Prime"},{"name":"Pochette Hikou Prime"},{"name":"Étoiles Hikou Prime"},{"name":"Étoiles Hikou Prime"}],
+        "vaulted":true
     },
     {
         "name":"Lato Prime",
-        "requiredParts":[]
+        "requiredParts":[],
+        "vaulted":false
     },
     {
         "name":"Lex Prime",
-        "requiredParts":[{"name":"Schéma Lex Prime"},{"name":"Canon Lex Prime"},{"name":"Culasse Lex Prime"}]
+        "requiredParts":[{"name":"Schéma Lex Prime"},{"name":"Canon Lex Prime"},{"name":"Culasse Lex Prime"}],
+        "vaulted":false
     },
     {
         "name":"Sicarus Prime",
-        "requiredParts":[{"name":"Schéma Sicarus Prime"},{"name":"Canon Sicarus Prime"},{"name":"Culasse Sicarus Prime"}]
+        "requiredParts":[{"name":"Schéma Sicarus Prime"},{"name":"Canon Sicarus Prime"},{"name":"Culasse Sicarus Prime"}],
+        "vaulted":true
     },
     {
         "name":"Spira Prime",
-        "requiredParts":[{"name":"Schéma Spira Prime"},{"name":"Pochette Spira Prime"},{"name":"Pochette Spira Prime"},{"name":"Lame Spira Prime"},{"name":"Lame Spira Prime"}]
+        "requiredParts":[{"name":"Schéma Spira Prime"},{"name":"Pochette Spira Prime"},{"name":"Pochette Spira Prime"},{"name":"Lame Spira Prime"},{"name":"Lame Spira Prime"}],
+        "vaulted":false
     },
     {
         "name":"Vasto Prime",
-        "requiredParts":[{"name":"Schéma Vasto Prime"},{"name":"Canon Vasto Prime"},{"name":"Culasse Vasto Prime"}]
+        "requiredParts":[{"name":"Schéma Vasto Prime"},{"name":"Canon Vasto Prime"},{"name":"Culasse Vasto Prime"}],
+        "vaulted":false
     },
 
     {
         "name":"Ankyros Prime",
-        "requiredParts":[{"name":"Schéma Ankyros Prime"},{"name":"Lame Ankyros Prime"},{"name":"Lame Ankyros Prime"},{"name":"Gantelet Ankyros Prime"},{"name":"Gantelet Ankyros Prime"}]
+        "requiredParts":[{"name":"Schéma Ankyros Prime"},{"name":"Lame Ankyros Prime"},{"name":"Lame Ankyros Prime"},{"name":"Gantelet Ankyros Prime"},{"name":"Gantelet Ankyros Prime"}],
+        "vaulted":true
     },
     {
         "name":"Bo Prime",
-        "requiredParts":[{"name":"Schéma Bo Prime"},{"name":"Ornement Bo Prime"},{"name":"Ornement Bo Prime"},{"name":"Manche Bo Prime"}]
+        "requiredParts":[{"name":"Schéma Bo Prime"},{"name":"Ornement Bo Prime"},{"name":"Ornement Bo Prime"},{"name":"Manche Bo Prime"}],
+        "vaulted":true
     },
     {
         "name":"Dakra Prime",
-        "requiredParts":[{"name":"Schéma Dakra Prime"},{"name":"Lame Dakra Prime"},{"name":"Poignée Dakra Prime"}]
+        "requiredParts":[{"name":"Schéma Dakra Prime"},{"name":"Lame Dakra Prime"},{"name":"Poignée Dakra Prime"}],
+        "vaulted":true
     },
     {
         "name":"Doubles Kamas Prime",
-        "requiredParts":[{"name":"Schéma Doubles Kamas Prime"},{"name":"Lame Doubles Kamas Prime"},{"name":"Lame Doubles Kamas Prime"},{"name":"Poignée Doubles Kamas Prime"},{"name":"Poignée Doubles Kamas Prime"}]
+        "requiredParts":[{"name":"Schéma Doubles Kamas Prime"},{"name":"Lame Doubles Kamas Prime"},{"name":"Lame Doubles Kamas Prime"},{"name":"Poignée Doubles Kamas Prime"},{"name":"Poignée Doubles Kamas Prime"}],
+        "vaulted":false
     },
     {
         "name":"Fang Prime",
-        "requiredParts":[{"name":"Schéma Fang Prime"},{"name":"Lame Fang Prime"},{"name":"Lame Fang Prime"},{"name":"Poignée Fang Prime"},{"name":"Poignée Fang Prime"}]
+        "requiredParts":[{"name":"Schéma Fang Prime"},{"name":"Lame Fang Prime"},{"name":"Lame Fang Prime"},{"name":"Poignée Fang Prime"},{"name":"Poignée Fang Prime"}],
+        "vaulted":false
     },
     {
         "name":"Fragor Prime",
-        "requiredParts":[{"name":"Schéma Fragor Prime"},{"name":"Tête Fragor Prime"},{"name":"Poignée Fragor Prime"}]
+        "requiredParts":[{"name":"Schéma Fragor Prime"},{"name":"Tête Fragor Prime"},{"name":"Poignée Fragor Prime"}],
+        "vaulted":false
     },
     {
         "name":"Reaper Prime",
-        "requiredParts":[{"name":"Schéma Reaper Prime"},{"name":"Manche Reaper Prime"},{"name":"Lame Reaper Prime"}]
+        "requiredParts":[{"name":"Schéma Reaper Prime"},{"name":"Manche Reaper Prime"},{"name":"Lame Reaper Prime"}],
+        "vaulted":true
     },
     {
         "name":"Glaive Prime",
-        "requiredParts":[{"name":"Schéma Glaive Prime"},{"name":"Lame Glaive Prime"},{"name":"Lame Glaive Prime"},{"name":"Disque Glaive Prime"}]
+        "requiredParts":[{"name":"Schéma Glaive Prime"},{"name":"Lame Glaive Prime"},{"name":"Lame Glaive Prime"},{"name":"Disque Glaive Prime"}],
+        "vaulted":true
     },
     {
         "name":"Nikana Prime",
-        "requiredParts":[{"name":"Schéma Nikana Prime"},{"name":"Lame Nikana Prime"},{"name":"Garde Nikana Prime"}]
+        "requiredParts":[{"name":"Schéma Nikana Prime"},{"name":"Lame Nikana Prime"},{"name":"Garde Nikana Prime"}],
+        "vaulted":false
     },
     {
         "name":"Orthos Prime",
-        "requiredParts":[{"name":"Schéma Orthos Prime"},{"name":"Lame Orthos Prime"},{"name":"Lame Orthos Prime"},{"name":"Manche Orthos Prime"}]
+        "requiredParts":[{"name":"Schéma Orthos Prime"},{"name":"Lame Orthos Prime"},{"name":"Lame Orthos Prime"},{"name":"Manche Orthos Prime"}],
+        "vaulted":false
     },
     {
         "name":"Scindo Prime",
-        "requiredParts":[{"name":"Schéma Scindo Prime"},{"name":"Lame Scindo Prime"},{"name":"Manche Scindo Prime"}]
+        "requiredParts":[{"name":"Schéma Scindo Prime"},{"name":"Lame Scindo Prime"},{"name":"Manche Scindo Prime"}],
+        "vaulted":false
     },
     {
         "name":"Skana Prime",
@@ -181,19 +224,23 @@
 
     {
         "name":"Wyrm Prime",
-        "requiredParts":[{"name":"Schéma Wyrm Prime"},{"name":"Cerveau Wyrm Prime"},{"name":"Carapace Wyrm Prime"},{"name":"Systems Wyrm Prime"}]
+        "requiredParts":[{"name":"Schéma Wyrm Prime"},{"name":"Cerveau Wyrm Prime"},{"name":"Carapace Wyrm Prime"},{"name":"Systems Wyrm Prime"}],
+        "vaulted":true
     },
     {
         "name":"Carrier Prime",
-        "requiredParts":[{"name":"Schéma Carrier Prime"},{"name":"Cerveau Carrier Prime"},{"name":"Carapace Carrier Prime"},{"name":"Systems Carrier Prime"}]
+        "requiredParts":[{"name":"Schéma Carrier Prime"},{"name":"Cerveau Carrier Prime"},{"name":"Carapace Carrier Prime"},{"name":"Systems Carrier Prime"}],
+        "vaulted":false
     },
     {
         "name":"Collier Kavasa Prime",
-        "requiredParts":[{"name":"Schéma Collier Kavasa Prime"},{"name":"Lanière Collier Kavasa Prime"},{"name":"Boucle Collier Kavasa Prime"}]
+        "requiredParts":[{"name":"Schéma Collier Kavasa Prime"},{"name":"Lanière Collier Kavasa Prime"},{"name":"Boucle Collier Kavasa Prime"}],
+        "vaulted":false
     },
 
     {
         "name":"Odonata Prime",
-        "requiredParts":[{"name":"Schéma Odonata Prime"},{"name":"Ailes Odonata Prime"},{"name":"Harnais Odonata Prime"},{"name":"Systèmes Odonata Prime"}]
+        "requiredParts":[{"name":"Schéma Odonata Prime"},{"name":"Ailes Odonata Prime"},{"name":"Harnais Odonata Prime"},{"name":"Systèmes Odonata Prime"}],
+        "vaulted":false
     }
 ]

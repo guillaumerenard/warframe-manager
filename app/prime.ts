@@ -3,11 +3,14 @@ import { PrimePart } from './prime-part';
 export interface IPrime {
     name:string;
     requiredParts: PrimePart[];
+    vaulted: boolean;
 }
 
 export class Prime implements IPrime {
     name:string;
     requiredParts: PrimePart[];
+    vaulted: boolean;
+    private distinctParts: PrimePart[];
 
     static isEqual(a: Prime, b: Prime): boolean {
         return a.name == b.name;
@@ -17,6 +20,7 @@ export class Prime implements IPrime {
         let prime = new Prime();
         prime.name = jsonPrime.name;
         prime.requiredParts = jsonPrime.requiredParts;
+        prime.vaulted = jsonPrime.vaulted;
         return prime;
     }
 
@@ -31,5 +35,12 @@ export class Prime implements IPrime {
             }
         }
         return true;
+    }
+
+    getDistinctParts(): PrimePart[] {
+        if(this.distinctParts == null) {
+            this.distinctParts = this.requiredParts.filter((a, index) => this.requiredParts.findIndex(b => PrimePart.isEqual(a, b)) == index);
+        }
+        return this.distinctParts;
     }
 }
